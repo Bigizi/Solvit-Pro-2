@@ -4,6 +4,8 @@ function App() {
   return (
     <div className="App">
       <p>Solvit New Project</p>
+      <p>Solvit New Project</p>
+      <p>Solvit New Project</p>
     </div>
   );
 }
