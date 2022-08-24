@@ -3,7 +3,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p>Solvit New Project .....</p>
+      <h1>Some random text</h1>
     </div>
   );
 }
