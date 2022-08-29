@@ -8,7 +8,7 @@ export default function Signup() {
         <div className='app-wrapper'>
             
             <div>
-            <h2 className='title'>Create Account</h2>
+            <h2 className='title'>Fill The Following Form</h2>
             </div>
         
         <form className='form-wrapper'>
@@ -18,12 +18,16 @@ export default function Signup() {
                 <input className='input-field' type='text' /> 
             </div>
             <div className='email'>
-                <label className='label'>Email</label>
-                <input className='input-field' type='email' /> 
+                <label className='label'>National ID</label>
+                <input className='input-field' type='text' /> 
             </div>
             <div className='phone'>
                 <label className='label'>Phone Number</label>
                 <input className='input-field' type='text' /> 
+            </div>
+            <div className='email'>
+                <label className='label'>Email</label>
+                <input className='input-field' type='email' /> 
             </div>
             <div className='password'>
                 <label className='label'>Password</label>
