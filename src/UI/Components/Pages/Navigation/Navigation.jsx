@@ -12,9 +12,9 @@ function Navigation() {
             <ul>
                 <li>
                     <Link to="/">Home</Link>
-                    <Link to="/mission">Mission</Link>
-                    <Link to="/progress">Progress Report</Link>
-                    <Link to="/map">Rwandan Map</Link>
+                    <a href="#mission">Mission</a>
+                    <a href="#mission">Progress Report</a>
+                    <a href="#map">Rwanda map</a>
                     <Link to="/contact">Contact Us</Link>
                 </li>
                 <li>
