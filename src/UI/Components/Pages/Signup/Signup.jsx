@@ -1,12 +1,13 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './Signup.css'
+import Vector from '../../Resources/Images/Vector.png';
 
 export default function Signup() {
   return (
     <div className='container-3'>
+        <img src={Vector} alt="" id='Back'/>
         <div className='app-wrapper'>
-            
             <div>
             <h2 className='title'>Fill The Following Form</h2>
             </div>
@@ -14,33 +15,27 @@ export default function Signup() {
         <form className='form-wrapper'>
             
             <div className='name-1'>
-                <label className='label'>Full Name</label>
-                <input className='input-field' type='text' /> 
+                <input className='input-field' type='text' placeholder='Full Name'/>
             </div>
-            <div className='email'>
-                <label className='label'>National ID</label>
-                <input className='input-field' type='text' /> 
+            <div className='field-1'>
+                <input className='input-field' type='text' placeholder='National ID'/> 
             </div>
-            <div className='phone'>
-                <label className='label'>Phone Number</label>
-                <input className='input-field' type='text' /> 
+            <div className='field-2'>
+                <input className='input-field' type='text' placeholder='Phone Number'/> 
             </div>
-            <div className='email'>
-                <label className='label'>Email</label>
-                <input className='input-field' type='email' /> 
+            <div className='field-3'>
+                <input className='input-field' type='email' placeholder='Email'/> 
             </div>
             <div className='password'>
-                <label className='label'>Password</label>
-                <input className='input-field' type='password' /> 
+                <input className='input-field' type='password' placeholder='Password'/> 
             </div>
             <div className='password'>
-                <label className='label'>Confirm Password</label>
-                <input className='input-field' type='password' /> 
+                <input className='input-field' type='password' placeholder='Confirm Password'/> 
             </div>
             <div>
-                <button className='submit'>Sign Up</button>
+                <button className='submit'>Register</button>
             </div><br/>
-            {/* <p className='paragraph'>Already have account?   <Link to='/login'>Login</Link> </p> */}
+            <p className='paragraph'>Already have account? <Link to='/login'>Login</Link></p>
         </form>
      </div>
     </div>
