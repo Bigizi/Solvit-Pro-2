@@ -7,22 +7,32 @@
     background: #1B365C;
     width: 100%;
     min-height: 100vh;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     align-items: center;
 }
 .app-wrapper{
     background-color: #fff;
     width: 400px;
+    height: 400px;
     min-width: 320px;
-    min-height: 650px;
+    min-height: 590px;
     padding: 30px;
     border-radius: 20px;
-    margin-top: 70px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+}
+#Back{
+    padding-top: 20px;
+    padding-right: 90%;
 }
 .title{
-    position: absolute;
-    top: 70px;
+    /* position: absolute; */
+    top: 20px;
     margin-left: 14px;
     font-family: 'Source Sans 3';
     font-style: normal;
@@ -32,8 +42,9 @@
     color: #1473E6;
 }
 .name-1,
-.email,
-.phone,
+.field-1,
+.field-2,
+.field-3,
 .password{
     margin: 20px;
     color: black;
@@ -44,7 +55,7 @@
 }
 .input-field {
     height: 32px;
-    font-size: 20px;
+    font-size: 18px;
     outline: none;
     width: 100%;
     border-top-style: none;
@@ -52,6 +63,9 @@
     border-right-style: none;
     border-bottom-style: 2px solid black ;
     margin-bottom: 10px;
+}
+.input-field ::placeholder{
+    color: black;
 }
 .paragraph{
     margin-left: 20px;
@@ -75,11 +89,15 @@
 button:active{
     transform: translateY(2px);
 }
-
-.form-success{
-    display: flex;
-    justify-content: center;
-    margin-top: 250px;
-    min-width: 370px;
-    color: red;
+@media all and (max-width: 450px){
+    .app-wrapper-2 {
+        width: 350px;
+        height: 400px;
+    }
+}
+@media all and (max-width: 400px){
+    .app-wrapper-2 {
+        width: 280px;
+        height: 350px;
+    }
 }
