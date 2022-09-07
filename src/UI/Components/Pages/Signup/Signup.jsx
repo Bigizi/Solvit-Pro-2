@@ -6,7 +6,7 @@ import Vector from '../../Resources/Images/Vector.png';
 export default function Signup() {
   return (
     <div className='container-3'>
-        <img src={Vector} alt="" id='Back'/>
+        <Link to='/'><img src={Vector} alt="" id='Back'/></Link>
         <div className='app-wrapper'>
             <div>
             <h2 className='title'>Fill The Following Form</h2>

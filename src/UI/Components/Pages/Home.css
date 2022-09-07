@@ -1,0 +1,309 @@
+
+
+.Body_Home{
+    background-image: url(../Resources/Images/homePhoto.png);
+    position: relative;;
+    top: 70px;
+    color: aliceblue;
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+.Body_Home h1{
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 103px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+.Body_Home p{
+    position: absolute;
+    top: 55%;
+    left: 8%;
+    font-family: 'NanumGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.Body_Home button{
+    position: absolute;
+    left: 5.56%;
+    right: 75.01%;
+    top: 65%;
+    margin-left: 20px;
+    height: 40px;
+    background: #3163A8;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 120%;
+    color: #FFFFFF;
+    }
+.Body_center{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #2F231B;
+    
+}
+
+.Body_center #p1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+}
+.Body_center h1{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+}
+
+.body1{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 100px 0;
+    align-items: left;
+    margin-top: 100px;
+
+}
+
+.Body_center h2{
+    text-align: left;
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.Body_center #p2{
+    text-align: left;
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+.Body_center img{
+    
+    border: 1.52239px solid rgba(47, 37, 26, 0.2);
+    padding: 20px;
+    justify-content: right;
+    align-items: right;
+    
+}
+.rectangle{
+    position: absolute;
+    width: 346px;
+    height: 467px;
+    background: rgba(100, 97, 124, 0.2);
+    left: 1000px;
+    top: 650px;
+}
+
+.body2{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 100px 0;
+    align-items: left;
+    margin-top: 100px;
+
+}
+
+.Body_center #p3{
+    text-align: left;
+    font-family: 'Nanum Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    margin-top: 100px; 
+}
+
+.rectangle2{
+    position: absolute;
+    width: 346px;
+    height: 467px;
+    background: rgba(100, 97, 124, 0.2);
+    left: 0px;
+    top: 1500px;
+}
+.cards_body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 601px;
+    margin-top: 280px;
+    background: rgba(27, 54, 92, 0.2);
+    padding: 80px;
+    align-items: center;
+
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 601px;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    
+    align-items: center;
+
+}
+.card1{
+    width: 281px;
+    height: 323px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.card2{
+    width: 281px;
+    height: 323px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.card3{
+    width: 281px;
+    height: 323px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+.cards h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    
+}
+.cards #img3{
+    margin-top: 50px;
+}
+.body3{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+}
+.body3 h4{
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    text-transform: uppercase;
+    margin: -80px 0px 90px;
+    color: #070709;
+}
+.body3 h5{
+    width: 163.65px;
+    height: 28px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 33px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 10px 200px 30px;
+    color: #000000;
+   justify-content: space-evenly;
+   
+}
+.body3 #p3{
+
+    font-family: 'NanumGothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 180%;
+    letter-spacing: 0.06em;
+    margin-left: -700px;
+    color: #000000;
+}
+.body3 button{
+  
+   
+    
+    background: #3163A8;
+    border-radius: 12px;
+        height: 40px;
+    
+        background: #3163A8;
+        border-radius: 12px;
+        border: none;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 120%;
+        color: #FFFFFF;
+        padding: 15px 20px 30px; 
+        /* margin: 10px 195px 100px; */
+        margin-left: -800px;
+        }
+    .body3 .pics{
+        position: absolute;
+        left: 780px;   
+    }
+    .body3 #ipad{
+        position: absolute;
+        left: 30px;
+    }
+    .body3 #phone{
+        position: absolute;
+        left: 200px;
+        top: 80px; 
+    }
+
