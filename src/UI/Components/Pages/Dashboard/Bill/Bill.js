@@ -3,7 +3,7 @@ import './Bill.css'
 import Visa from '../../../Resources/Icons/visa.png'
 import Momo from '../../../Resources/Icons/momo.png'
 import Airtel from '../../../Resources/Icons/airtel.png'
-import Profil from '../../../Resources/Icons/profil.png'
+// import Profil from '../../../Resources/Icons/profil.png'
 // import Btn from '../../../Resources/Icons/btn.png'
 
 function Bill() {
