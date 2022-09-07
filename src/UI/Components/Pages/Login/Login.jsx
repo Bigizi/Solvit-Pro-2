@@ -7,7 +7,7 @@ function Login() {
   return (
     <div>
       <div className='container-3'>
-       <img src={Vector} alt="" id='Back'/>
+       <Link to='/'><p><img src={Vector} alt="" id='Back'/></p></Link>
         <div className='app-wrapper-2'>
             
         <form className='form-wrapper'>

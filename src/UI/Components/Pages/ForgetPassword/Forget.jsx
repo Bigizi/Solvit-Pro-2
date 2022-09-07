@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import './Forget.css'
 import Vector from '../../Resources/Images/Vector.png';
 import Tick from '../../Resources/Images/tick.png';
+import { Link } from 'react-router-dom'
+
 
 function Forget() {
 
@@ -22,12 +24,12 @@ function Forget() {
   return (
     <div>
         <div className='container-3'>
-        <img src={Vector} alt="" id='Back'/>
+        <Link to='/'><img src={Vector} alt="" id='Back'/></Link>
             <div className={`popup ${popUpVisible === true ? "open-popup" : ""}`} id='popup'>
                 <img src={Tick} alt="" id='img'/>
                 <h2>Thank You!</h2>
                 <p>Your password has been reset successfully.</p>
-                <button type='button' onClick={closePopup}>Login Now </button>
+                <Link to='/login'><button type='button' onClick={closePopup}>Login Now </button></Link>
             </div>
             <div className='app-wrapper-2'>
                 <form className='form-wrapper' onSubmit={_resetFunction}>

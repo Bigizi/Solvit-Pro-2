@@ -65,7 +65,7 @@
     border-radius: 20px;
     color: white;
     font-weight: bold;
-    padding: 15px 115px;
+    /* padding: 15px 115px; */
     margin: auto;
     outline: none;
     border: none;
@@ -86,5 +86,8 @@ button:active{
     .app-wrapper-2 {
         width: 330px;
         height: 400px;
+    }
+    .submit{
+        width: 50px;
     }
 }

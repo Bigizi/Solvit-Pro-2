@@ -1,0 +1,47 @@
+.footer{
+    width: 100%;
+    height: 198px;
+    background: #1B365C;
+    display: flex;
+    flex-direction: row;
+  
+    padding: 0 100px 0;
+    align-items: left;
+    margin-top: 100px;
+}
+.footer .partners{
+   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 50px;
+    align-items: center;
+    
+}
+
+.footer h2{
+    margin-bottom: 20px;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    
+}
+
+.footer .stay{
+    margin-top: 30px;
+    margin-right: 500px;
+    display: flex;
+    flex-direction: row;   
+}
+
+.footer h2{
+
+}
+
+.footer .logos{
+    justify-content: space-between;
+    gap: 20px;
+}
