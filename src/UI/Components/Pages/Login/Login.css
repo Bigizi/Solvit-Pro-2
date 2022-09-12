@@ -58,14 +58,18 @@
     margin-left: 20px;
 }
 
-.submit{
+.submit1{
     display: flex;
     text-transform: uppercase;
     font-size: 18px;
     border-radius: 20px;
     color: white;
     font-weight: bold;
-    /* padding: 15px 115px; */
+    padding: 10px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
     margin: auto;
     outline: none;
     border: none;

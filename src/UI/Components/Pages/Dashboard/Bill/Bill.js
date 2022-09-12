@@ -21,9 +21,9 @@ function Bill() {
                 </div> */}
                 {/* <button><img src={Btn} alt='' id='btn-h'/></button> */}
             </div>
-            <form className='form'>
+            <form className='form-3'>
                 <div className='content'>
-                    <h2>Fill the following form</h2><br/><br/>
+                    <h2>Fill the following form</h2><br/>
                     <label>Meter Number: </label>
                     <input type='text' /><br/><br/>
                     <label>Meter Reading:  </label>
@@ -32,7 +32,7 @@ function Bill() {
                     <input type='text' /><br/><br/>
                     <button>Confirm Payment</button>
                 </div>
-                <div className='payment'>
+                <div id='payment'>
                     <h3>Payment Method</h3><br/>
                     <img src={Visa} alt='' /><br/>
                     <img src={Momo} alt='' /><br/>

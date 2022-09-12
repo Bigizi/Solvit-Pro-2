@@ -7,7 +7,7 @@ return (
 <nav className='nav'>
 
 <div className='logo1'>
-<h1 id="logo"> Water4ALL</h1>
+<h1 id="logo">The Source</h1>
 <img src="" alt="" />
 </div>
 <div className='Tablinks'>

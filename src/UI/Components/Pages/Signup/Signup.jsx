@@ -33,7 +33,7 @@ export default function Signup() {
                 <input className='input-field' type='password' placeholder='Confirm Password'/> 
             </div>
             <div>
-                <button className='submit'>Register</button>
+                <button className='submit1'>Register</button>
             </div><br/>
             <p className='paragraph'>Already have account? <Link to='/login'>Login</Link></p>
         </form>

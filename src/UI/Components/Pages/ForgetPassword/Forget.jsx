@@ -43,7 +43,7 @@ function Forget() {
                     <input className='input-field' type='password' placeholder='Confirm Password'/>
                     </div><br/>
                     <div>
-                    <button className='submit' onClick={openPopup}>Reset</button>
+                    <button className='submit1' onClick={openPopup}>Reset</button>
                     </div>
                 </form> 
             </div>

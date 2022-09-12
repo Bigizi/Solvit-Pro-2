@@ -12,11 +12,9 @@
     align-items: center;
     padding-bottom: 15%;
     width: 30%;
-    /* background-color: beige; */
 }
 .list{
     flex-direction: column;
-    /* margin-left: 100px; */
     margin-top: 10%;
     list-style: none;
     font-size: 50px;
@@ -29,8 +27,7 @@
     align-items: center;
     letter-spacing: 0.05em;
     text-transform: capitalize;
-    gap: 25px;
-    
+    gap: 25px; 
 }
 li{
     display: flex;
@@ -39,21 +36,13 @@ li{
     margin-right: 15px;
     width: 30px;
     height: 30px;
-    margin-left: -35px; 
 }
-#img{
-    margin-right: 15px;
-    width: 30px;
-    height: 30px;
+.list1{
+    margin-left: 40px;
 }
-.list2{
-    margin-left: 25px;
-}
-
 .rightside{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-color: rgb(84, 199, 199); */
     width: 100%;
 }
