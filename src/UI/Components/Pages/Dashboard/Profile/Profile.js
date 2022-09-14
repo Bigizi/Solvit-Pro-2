@@ -9,11 +9,11 @@ function Profile() {
   
     <div className="container-profile">
         
-   <div className="profile">
-   <div className="img"><img src={Profile1} alt="" /> </div>
-   <div className="titles"><h id='hh' >Profile</h>
-    <h id='hhh' >Update your photo and personal details</h>
-    <div className='profileBtn'>
+   {/* <div className="profile"> */}
+   {/* <div className="img"><img src={Profile1} alt="" /> </div>
+   <div className="titles"><h id='hh' >Profile</h> */}
+    {/* <h id='hhh' >Update your photo and personal details</h> */}
+    {/* <div className='profileBtn'>
       <label className='labelprofile' for="upload_input">
         Upload
       </label>
@@ -21,7 +21,7 @@ function Profile() {
     <input id="upload_input" className='name' type="file" name="name" placeholder=' '/>
     </div> 
     </div>
-    </div>
+    </div> */}
      
         
         <form className='main-form'>

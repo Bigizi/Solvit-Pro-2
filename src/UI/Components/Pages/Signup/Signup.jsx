@@ -9,7 +9,7 @@ export default function Signup() {
         <Link to='/'><img src={Vector} alt="" id='Back'/></Link>
         <div className='app-wrapper'>
             <div>
-            <h2 className='title'>Fill The Following Form</h2>
+            <h2 className='title-signup'>Fill The Following Form</h2>
             </div>
         
         <form className='form-wrapper'>
@@ -35,7 +35,7 @@ export default function Signup() {
             <div>
                 <button className='submit1'>Register</button>
             </div><br/>
-            <p className='paragraph'>Already have account? <Link to='/login'>Login</Link></p>
+            <p className='paragraph2'>Already have account? <Link to='/login'>Login</Link></p>
         </form>
      </div>
     </div>

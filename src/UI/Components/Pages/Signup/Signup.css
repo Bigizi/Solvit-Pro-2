@@ -30,10 +30,9 @@
     padding-top: 20px;
     padding-right: 90%;
 }
-.title{
-    /* position: absolute; */
+.title-signup{
     top: 20px;
-    margin-left: 14px;
+    margin-left: -90px;
     font-family: 'Source Sans 3';
     font-style: normal;
     font-weight: 200;
@@ -67,8 +66,8 @@
 .input-field ::placeholder{
     color: black;
 }
-.paragraph{
-    margin-left: 20px;
+.paragraph2{
+    margin-left: 10px;
 }
 
 .submit1{
@@ -85,6 +84,7 @@
     cursor: pointer;
     transition: all 0.1s;
     background-color: #1473E6;
+    margin-top: -15px;
 }
 button:active{
     transform: translateY(2px);

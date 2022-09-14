@@ -3,11 +3,13 @@ import './Dashboard.css'
 import Bill1 from '../../Resources/Icons/bill1.png'
 import Repo from '../../Resources/Icons/repo.png'
 import Prof from '../../Resources/Icons/prof.png'
-import Profile from './Profile/Profile.js'
+import Logout from '../../Resources/Icons/logout.png'
+// import Profile from './Profile/Profile.js'
 import Report from './Report/Report'
 import Bill from './Bill/Bill'
 import { Link, useParams } from 'react-router-dom'
-
+import Profile from './Profile/Profile'
+import LogoutIcon from '@mui/icons-material/Logout';
 
 function Dashboard() { 
     const pages = {
@@ -37,6 +39,10 @@ function Dashboard() {
                 <Link className='list2' to="/dash/profile">
                     <img src={Prof} id='img' alt=''/>
                     Profile
+                </Link>
+                <Link className='list2' to="/">
+                    <LogoutIcon id='imglogout'/>
+                    Logout
                 </Link>
             </ul>
         </div>
