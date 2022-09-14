@@ -27,11 +27,11 @@ return (
 <div className='Body_center'>
 
 <p>ABOUT US</p>
-<h1>WHAT WE DO</h1>
+<h1 id='what'>WHAT WE DO</h1>
 
 <div className="body1">
 <div className="body1-text">
-<h2>OUR MISSION</h2>
+<h id='mission'>OUR MISSION</h>
 <p id='p2'>
 Access to water, sanitation and hygiene is a<br/>
 human right. In Rwanda, only 57 per cent of <br/>
@@ -67,7 +67,7 @@ concerns.
 <div className="cards_body" id='cards_body_orgy'>
 <div>
 <p>PROGRESS<br/></p>
-<h1>PROVINCIAL WATER SUPPLIES</h1>
+<h2 id='progre'>PROVINCIAL WATER SUPPLIES</h2>
 </div>
 
 <div className='cards'>
