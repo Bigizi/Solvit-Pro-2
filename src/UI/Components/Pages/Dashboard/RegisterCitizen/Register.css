@@ -1,0 +1,48 @@
+.form-register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 829px;
+    height: 85%;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    
+}
+.form-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    padding: 10px;   
+}
+.form-content .radiobtn{
+    display: flex;
+    flex-direction: row;
+}
+.form-content .leftside{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+}
+.form-content .rightside{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    gap: 20px;
+}
+
+label{
+    width: 112px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    
+
+}

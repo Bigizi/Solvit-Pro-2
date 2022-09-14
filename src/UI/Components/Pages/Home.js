@@ -11,37 +11,6 @@ import phone from '../Resources/Images/phone.png'
 import ipad from '../Resources/Images/ipad.png'
 import Footer from './Footer/Footer';
 
-// class ProgressComp extends Component{
-// constructor(){
-// super();
-// this.ref = createRef();
-// }
-// componentDidMount(){
-// const percentage = 1 - (this.props.percentage ?? 0 ) / 100;
-// /**
-// * @type {HTMLCanvasElement}
-// */
-// this.canvas = this.ref.current;
-// const context2d = this.canvas.getContext('2d');
-// context2d.fillStyle = "#ffff";
-// context2d.fillRect(0,0, 200, 200);
-
-// const strokeGradient = context2d.createLinearGradient(0, 0, 100, 100);
-// strokeGradient.addColorStop(0, "#CE202A");
-
-// context2d.strokeStyle = strokeGradient;
-// context2d.lineWidth = 10;
-// context2d.beginPath();
-
-// context2d.arc(100,100, 80, 0, (2 * Math.PI * percentage), true)
-
-// context2d.stroke();
-
-// }
-// render(){
-// return <canvas width={200} height={200} ref={this.ref} ></canvas>
-// }
-// }
 function Home() {
 return (
 <div className='home'>
@@ -50,7 +19,7 @@ return (
 
 <div className='Body_Home'>
 
-<h1>Water For All</h1>
+<h1 id='h1'>Source</h1>
 <p id='p1'>Facilitating Community Water Supply</p>
 <button>Learn More</button>
 </div>

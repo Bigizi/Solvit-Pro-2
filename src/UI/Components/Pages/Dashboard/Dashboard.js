@@ -1,37 +1,48 @@
 import React from 'react'
 import './Dashboard.css'
 import Bill1 from '../../Resources/Icons/bill1.png'
-import Report from '../../Resources/Icons/report.png'
-import Profile from '../../Resources/Icons/profile.png'
+import Repo from '../../Resources/Icons/repo.png'
+import Prof from '../../Resources/Icons/prof.png'
+import Profile from './Profile/Profile.js'
+import Report from './Report/Report'
 import Bill from './Bill/Bill'
+import { Link, useParams } from 'react-router-dom'
 
 
 function Dashboard() { 
+    const pages = {
+        report: <Report />,
+        bill: <Bill />,
+        profile: <Profile/>
+    }
+    
+    let  {page} = useParams();
+    const currentPage = pages[page] ?? <Bill />
+    
+
   return (
     <div className='main'>
         <div className='logo'>
         </div>
         <div className='leftside'>
             <ul className='list'>
-                <li className='list1'>
-                    <img src={Bill1} id='img' alt=''/>
+                <Link className='list1' to="/dash/bill">
+                    <img src={Bill1} id='img1' alt=''/>
                     Bill
-                </li>
-                <li className='list2'>
-                    <img src={Report} id='img' alt=''/>
+                </Link>
+                <Link className='list2' to="/dash/report" >
+                    <img src={Repo} id='img' alt=''/>
                     Report
-                </li>
-                <li className='list2'>
-                    <img src={Profile} id='img' alt=''/>
+                </Link>
+                <Link className='list2' to="/dash/profile">
+                    <img src={Prof} id='img' alt=''/>
                     Profile
-                </li>
+                </Link>
             </ul>
         </div>
         <div className='rightside'> 
-            <Bill/>
+           {currentPage}
         </div>
-        
-    
     </div>
   )
 }

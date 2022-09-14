@@ -12,7 +12,7 @@ function Login() {
             
         <form className='form-wrapper'>
             <div>
-            <h2 className='title-1'>Login</h2>
+            <h2 className='title1'>Login</h2>
             </div>
             
             <div className='name-1'>
@@ -24,7 +24,7 @@ function Login() {
                 <input className='input-field' type='password' placeholder='Password'/> 
             </div>
             <div>
-                <button className='submit'>Login</button>
+               <Link to='/dash'><button className='submit1'>Login</button></Link> 
             </div><br/><br/>
             <p className='paragraph'>Don't have account? <Link to='/signup'>Signup</Link></p><br/>
             <p className='paragraph'>Forget Password? <Link to='/forget'>Reset</Link></p>
