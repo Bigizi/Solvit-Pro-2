@@ -98,8 +98,8 @@ concerns.
 Get the application now and you can<br/>
 follow up on your tasks offline from<br/>
 anywhere and anytime<br/>
-</p>
-<button>Download the App</button>
+</p><br/>
+<button id='download'>Download the App</button>
 </div>
 <div className="pics">
 <img id='ipad' src={ipad} alt="" />

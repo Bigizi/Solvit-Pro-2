@@ -315,18 +315,12 @@
     margin-left: -700px;
     color: #000000;
 }
-.body3 button{
-  
-   
-    
-    background: #3163A8;
-    border-radius: 12px;
+/* .body3{
+        border-radius: 12px;
         height: 40px;
-    
         background: #3163A8;
         border-radius: 12px;
         border: none;
-    
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 900;
@@ -334,9 +328,22 @@
         line-height: 120%;
         color: #FFFFFF;
         padding: 15px 20px 30px; 
-        /* margin: 10px 195px 100px; */
+       
+        } */
+#download{
+        background: #3163A8;
+        border-radius: 12px;
+        border: none;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 120%;
+        color: #FFFFFF;
+        padding: 15px 20px 30px; 
         margin-left: -800px;
-        }
+        width: 200px;
+}
     .body3 .pics{
         position: absolute;
         left: 780px;   
