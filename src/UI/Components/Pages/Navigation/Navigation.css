@@ -12,6 +12,9 @@ nav{
     left: 30px;
     color: rgb(240, 240, 255);
     }
+    #logo-app{
+        color: white;
+    }
     nav ul{
     display: flex;
     flex-direction: row;
@@ -21,6 +24,10 @@ nav{
     position: absolute;
     left: 40%;
     list-style-type: none;
+    }
+
+    .list-nav{
+        margin-left: 250px;
     }
     
     #registration{
@@ -48,6 +55,7 @@ nav{
     nav .Tablinks{
     color: #dfe2f0;
     text-decoration: none;
+  
     }
     
     nav .Tablinks:hover{
@@ -55,5 +63,3 @@ nav{
     transition: color ease-in-out 0.2s; */
     cursor: pointer;
     }
-    
-    

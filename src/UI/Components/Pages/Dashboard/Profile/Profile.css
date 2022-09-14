@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:5% 0% 0% 10%;
+    /* margin:5% 0% 0% 10%; */
     /* width: 1000px;
     height: 800px; */
     width: 95%;
@@ -13,7 +13,7 @@
     background-color: #DFEFFE;
     /* overflow: scroll; */
     border-radius: 60px;
-    margin-bottom: 10%;
+    /* margin-bottom: 1%; */
         
 }
 .container1 .profile{
@@ -108,9 +108,12 @@
 .main-form{
     display: flex;
     flex-direction: row;
-    gap: 30px;
-    padding:  10% 0 0 10%;
+    gap: 20px;
+    padding:  5% 0 0 10%;
     background-color: #FFFFFF;
+    border-radius: 20px;
+    width: 60%;
+    /* height: 90%; */
 }
 
 .left2{
@@ -201,6 +204,6 @@
     border: none;
     width: 192px;
     height: 40px;
-    margin-left: 210px;
+    margin-left: 200px;
     margin-top: -10px;
 }

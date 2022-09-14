@@ -22,12 +22,12 @@ function Login() {
             <div className='email'>
                 {/* <label className='label'>National ID</label> */}
                 <input className='input-field' type='password' placeholder='Password'/> 
-            </div>
+            </div><br/>
             <div>
                <Link to='/dash'><button className='submit1'>Login</button></Link> 
             </div><br/><br/>
-            <p className='paragraph'>Don't have account? <Link to='/signup'>Signup</Link></p><br/>
-            <p className='paragraph'>Forget Password? <Link to='/forget'>Reset</Link></p>
+            <p className='paragraph-login'>Don't have account? <Link to='/signup'>Signup</Link></p><br/>
+            <p className='paragraph-login'>Forget Password? <Link to='/forget'>Reset</Link></p>
         </form>
           </div>
         </div>
