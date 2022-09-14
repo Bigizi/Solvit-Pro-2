@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 15%;
-    width: 30%;
+    width: 20%;
     /* background-color: beige; */
 }
 .list{
@@ -32,6 +32,10 @@
     gap: 25px;
     
 }
+Link{
+    color: white;
+    text-decoration: none;
+}
 li{
     display: flex;
 }
@@ -46,8 +50,14 @@ li{
     width: 30px;
     height: 30px;
 }
+.list1{
+    color: white;
+    text-decoration: none;
+}
 .list2{
     margin-left: 25px;
+    color: white;
+    text-decoration: none;
 }
 
 .rightside{

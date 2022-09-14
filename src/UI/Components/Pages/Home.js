@@ -10,6 +10,7 @@ import group3 from '../Resources/Images/Group49.png';
 import phone from '../Resources/Images/phone.png'
 import ipad from '../Resources/Images/ipad.png'
 import Footer from './Footer/Footer';
+
 function Home() {
 return (
 <div className='home'>
@@ -18,7 +19,7 @@ return (
 
 <div className='Body_Home'>
 
-<h1>The Source || Pure Water</h1>
+<h1 id='h1'>Source</h1>
 <p id='p1'>Facilitating Community Water Supply</p>
 <button>Learn More</button>
 </div>

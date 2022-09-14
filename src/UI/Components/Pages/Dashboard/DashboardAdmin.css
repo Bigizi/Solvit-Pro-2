@@ -6,12 +6,12 @@
     display: flex;
     overflow: hidden;
 }
-.leftside{
+.leftside1{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 15%;
-    width: 30%;
+    width: 20%;
 }
 .list{
     flex-direction: column;
@@ -38,11 +38,19 @@ li{
     height: 30px;
 }
 .list1{
-    margin-left: 40px;
+    margin-left: 60px;
 }
-.rightside{
+.list3{
+    margin-left: 20px;
+}
+.rightside1{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 80%;
+    height: 95%;
+    background-color: #DFEFFE;
+    border-radius: 50px;
+    margin-top: 1%;
+    margin-bottom: 5%;
 }

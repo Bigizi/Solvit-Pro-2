@@ -24,7 +24,7 @@
     margin: auto;
     position: absolute;
 }
-.title-1{
+.title1{
     font-family: 'Source Sans 3';
     font-style: normal;
     font-weight: 200;
@@ -32,6 +32,8 @@
     line-height: 34px;
     color: #1473E6;
     padding-bottom: 5px;
+    margin-left: -90px;
+    margin-top: -2px;
 }
 #Back{
     padding-top: 20px;

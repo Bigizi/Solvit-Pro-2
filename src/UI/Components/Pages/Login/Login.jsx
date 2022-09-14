@@ -12,7 +12,7 @@ function Login() {
             
         <form className='form-wrapper'>
             <div>
-            <h2 className='title-1'>Login</h2>
+            <h2 className='title1'>Login</h2>
             </div>
             
             <div className='name-1'>

@@ -14,7 +14,23 @@
     flex-direction: column;
     gap: 130px;
 }
-.Body_Home h1{
+.Body_Home #h1{
+    position: absolute;
+    top: 35%;
+    left: 6%;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 103px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+#h1{
     position: absolute;
     top: 35%;
     left: 6%;

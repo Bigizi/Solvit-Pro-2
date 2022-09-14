@@ -5,6 +5,7 @@ function Report() {
   return (
    
    <div className="container-4">
+    <h1 id='report-h'>Report</h1>
     <div className='sub-container-4'>
     <h2>Fill The Information Bellow To Report the Issue</h2>
         <form className='form-1'>

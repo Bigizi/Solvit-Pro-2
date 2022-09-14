@@ -1,160 +1,206 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-.container-2{
+.container-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:5% 0% 0% 10%;
+    /* width: 1000px;
+    height: 800px; */
     width: 95%;
-    height: 90%;
-}
-.sub-container-2{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background: #DFEFFE;
+    height: 98%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
     border-radius: 40px;
+    justify-content: center;
+    background-color: #DFEFFE;
+    /* overflow: scroll; */
+    border-radius: 60px;
+    margin-bottom: 10%;
+        
 }
-.header{
-    justify-content: left;
-    justify-items: left;
+.container1 .profile{
     display: flex;
-    margin-top: 10px;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: -150px;
+   
 }
-/* #btn-header{
-    background: none;
-    text-align: center;
-    color: #035AA6;
-    border-radius: 5px;
-    border: #035AA6;
-    margin-left: 1%;
-
-} */
-#pro{
-    color: #035AA6;
+.profile .titles{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+}
+.profile #hh{
     width: 99px;
     height: 38px;
-    left: 321px;
-    top: 12px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 40px;
-    font-size: 20px;
-    line-height: 120%;
-    /* display: flex; */
-}
-#para{
-    width: 319px;
-    margin-top: -3%;
-    margin-left: -3%;
-    height: 24px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.7);
-}
-#photo{
-    width: 40px;
-    height: 40px;
-    border-radius: 30px;
-}
-.header-profile{
-    display: flex;
-}
-#in-put{
-    width: 10px;
-    height: 10px;
-    margin: 50px;
-    border-radius: 10px;
-}
-#prof-btn{
-    width: 30px;
-    height: 30px;
-}
-
-#btn-h{
-    width: 10px;
-    height: 10px;
-}
-h{
-    color: #035AA6;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
     line-height: 120%;
     text-transform: capitalize;
-    left: 359px;
-    top: 64px;
-}
-h2{
     color: #035AA6;
+
+}
+.profile #hhh{
+    width: 319px;
+    height: 24px;
+    left: 321px;
+    top: 50px;
     font-family: 'Poppins';
-}
-h3{
-    color: black;
-    font-family: 'Poppins';
-}
-label{
-    color: black;
-}
-.form{
-    /* display: flex; */
-    background-color: white;
-    width: 831px;
-    height: 450px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 12px;
-    margin-top: 85px;
-    padding: 20px 0 0 20px;
-    align-items: center;
-}
-.content{
-    margin-top: 3%;
-    margin-left: -10%;
-    align-items: center;
-}
-label{
-    box-sizing: border-box;
-    width: 150px;
-    height: 20px;
-    justify-items: center;
-    top: 123px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;
-}
-input{
-    box-sizing: border-box;
-    width: 150px;
-    height: 20px;
-    justify-items: center;
-    left: 111.87px;
-    top: 123px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 20px;
-    line-height: 30px;
-    color: #000000;  
-}
-button{
-    background: #035AA6;
-    border-radius: 6px;
-    font-family: 'Source Sans 3';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    width: 150px;
-    height: 30px;
-    margin-left: 125px;
-    border: none;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.7);
+
 }
-.payment{
-    margin-left: 280px;
+.profile img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 100px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 10px;
+    margin-top: -30%;
+}
+.profileBtn{
+    flex-direction: column; 
+}
+.labelprofile{
+    border: none;
+    background:none;
+    color: #035AA6;
+    border: 1px solid blue;
+    border-radius: 15px;
+    width: 80px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Source Sans 3';
+    font-style: 'normal';
+    padding: 5px 20px 5px 20px;
+    margin-left: 10%;
+    height: auto;
+}
+#remove{
+    border: none;
+    background:none;
+    color: #035AA6;
+    border: 1px solid blue;
+    border-radius: 15px;
+    width: 80px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: 'Source Sans 3';
+    font-style: 'normal';
+    padding: 6px 20px 6px 20px;
+    margin-left: 10%;
+    height: auto;
+}
+.profile #upload_input{
+    opacity: 0;
+    width: 3px;
+    height: 1px;
+    margin-left: -50%;
+    
+    
+}
+
+.main-form{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding:  10% 0 0 10%;
+    background-color: #FFFFFF;
+}
+
+.left2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-top: -25px;
+    gap: 35px;
+
+    width: 150px;
+    height: 28px;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 50px;
+    margin-left: -60px;
+     
+}
+
+.left2 .labels{
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+    margin-top: -10px;
+}
+
+.right2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+    
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    margin-top: -15px; 
+    margin-bottom: 15px;
+    gap: 15px;
+    
+}
+.address .address1, .address2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+    width: 192px;
+    
+
+}
+.name, select{
+    box-sizing: border-box;
+    width: 405px;
+    height: 40px;
+    border: 1px solid rgba(116, 116, 116, 0.62);
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: -30px;
+}
+
+.input1{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.Bio{
+    box-sizing: border-box;
+    width: 404px;
+    height: 99px;
+    border: 1px solid rgba(116, 116, 116, 0.62);
+    margin-top: -15px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+#buttonnn{
+    background: #035AA6;
+    border-radius: 10px;
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+    border: none;
+    width: 192px;
+    height: 40px;
+    margin-left: 210px;
+    margin-top: -10px;
 }
