@@ -1,16 +1,19 @@
-.main1{
-    width: 80%;
-    height: 95%;
+.all-content{
     background-color: #DFEFFE;
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+.main1{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    justify-content: center;
+    margin-top: -20px;
+    gap: 10px;
 }
 #dash-title{
-    position: absolute;
     width: 180px;
     height: 38px;
-    left: 279px;
-    top: 48px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -20,20 +23,47 @@
     color: #035AA6;
     }
 .left-content{
-    background-color: black;
     flex-direction: column;
+    width: 70%;
+    gap: 20px;
+}
+.part1{
+    display: flex;
+    gap: 10px;
 }
 .progress{
-    /* background-color: white; */
+    background-color:aquamarine;
+    /* width: 470px;
+    height: 250px; */
+    height: 275px;
+    width: 463px;
+
+
 }
 .task{
-    /* background-color: white; */
+    background-color: gray;
+    /* width: 400px;
+    height: 250px; */
+    width: 266px;
+height: 275px;
 }
 .payment{
-    /* background-color: white; */
+    background-color: greenyellow;
+    width: 740px;
+    height: 240px;
 }
 .right-content{
-    background-color: red;
+    gap: 6px;
     flex-direction: column;
     display: flex;
+}
+.request{
+    background-color: bisque;
+    width: 253px;
+    height: 275px;
+}
+.rate{
+    background-color: #035AA6;
+    width: 253px;
+    height: 240px;
 }

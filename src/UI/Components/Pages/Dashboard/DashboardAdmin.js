@@ -2,10 +2,10 @@ import React from 'react'
 import './DashboardAdmin.css'
 import Citizen from '../../Resources/Icons/citizen.png'
 import Prof from '../../Resources/Icons/prof.png'
-import Bill1 from '../../Resources/Icons/bill1.png'
-import Repo from '../../Resources/Icons/repo.png'
-// import Register from './RegisterCitizen/Register'
+import Dashboard from '../../Resources/Icons/Dashboard.png'
 import Main from './MainDashboard/Main'
+import { Link } from 'react-router-dom'
+import LogoutIcon from '@mui/icons-material/Logout';
 
 export default function DashboardAdmin() {
   return (
@@ -15,21 +15,21 @@ export default function DashboardAdmin() {
         <div className='leftside1'>
             <ul className='list'>
                 <li className='list2'>
+                    <img src={Dashboard} id='img1' alt=''/>
+                    Dashboard
+                </li>
+                <li className='list2'>
                     <img src={Citizen} id='img1' alt=''/>
                     Add A Citizen
                 </li>
                 <li className='list3'>
                     <img src={Prof} id='img1' alt=''/>
-                    View All Users
+                    Profile
                 </li>
-                <li className='list3'>
-                    <img src={Repo} id='img1' alt=''/>
-                    Reported Issues
-                </li>
-                <li className='list3'>
-                    <img src={Bill1} id='img1' alt=''/>
-                    View Payments
-                </li>
+                <Link className='list2' to="/">
+                    <LogoutIcon id='imglogout'/>
+                    Logout
+                </Link>
             </ul>   
         </div>  
         <div className='rightside1'> 
